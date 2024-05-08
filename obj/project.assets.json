@@ -18,7 +18,7 @@
           }
         }
       },
-      "FluentNHibernate/3.2.0": {
+      "FluentNHibernate/3.3.0": {
         "type": "package",
         "dependencies": {
           "NHibernate": "5.3.3"
@@ -1632,15 +1632,15 @@
         "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Antlr3.Runtime.xml"
       ]
     },
-    "FluentNHibernate/3.2.0": {
-      "sha512": "s/edVgthrkSJubI8rF56kGTTI1oGuh0K5cMM9jNCf7z6/tUgj7RzCN4YR1dPnOICd385WgJtm6r3ZyEcc1zgQQ==",
+    "FluentNHibernate/3.3.0": {
+      "sha512": "7+K7Nn8QfUh/YyH+xQSBtRkOe+8lzEttc55IAWn3RIWCMJdS/PZPXd+wa+KX4BMk+skXK6PXac8fH1vxAVj5qg==",
       "type": "package",
-      "path": "fluentnhibernate/3.2.0",
+      "path": "fluentnhibernate/3.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "fluentnhibernate.3.2.0.nupkg.sha512",
+        "fluentnhibernate.3.3.0.nupkg.sha512",
         "fluentnhibernate.nuspec",
         "lib/net461/FluentNHibernate.dll",
         "lib/net461/FluentNHibernate.pdb",
@@ -5398,7 +5398,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "FluentNHibernate >= 3.2.0",
+      "FluentNHibernate >= 3.3.0",
       "NHibernate >= 5.5.1"
     ]
   },
@@ -5446,7 +5446,7 @@
         "dependencies": {
           "FluentNHibernate": {
             "target": "Package",
-            "version": "[3.2.0, )"
+            "version": "[3.3.0, )"
           },
           "NHibernate": {
             "target": "Package",
